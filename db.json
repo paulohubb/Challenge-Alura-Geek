@@ -41,14 +41,6 @@
       "description": " "
     },
     {
-      "name": "R2D2",
-      "imgUrl": "img/prod-06.png",
-      "price": "R$ 60,00",
-      "id": 6,
-      "alt": "produto",
-      "description": " "
-    },
-    {
       "name": "Boneco Sonic",
       "imgUrl": "img/prod-07.png",
       "price": "R$ 60,00",
@@ -143,6 +135,12 @@
       "id": 18,
       "alt": "produto",
       "description": " "
+    },
+    {
+      "name": "Boneco",
+      "imgUrl": "https://www.megashopsul.com.br/5326-large_default/boneco-figure-star-wars-o-ultimo-jedi-kylo-ren-funko-pop-vinil-geek.jpg",
+      "price": "R$50,00",
+      "id": "21"
     }
   ]
 }
