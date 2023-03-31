@@ -1,0 +1,16 @@
+.editar-bg {
+    background: var(--background-grey);
+}
+
+.editar-tittle {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 64px;
+}
+
+.img-crud {
+    width: 156px;
+    object-fit: cover;
+    height: 154px;
+    margin: 0 auto;
+}

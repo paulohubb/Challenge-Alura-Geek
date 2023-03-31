@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Geek - Login</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- menu -->
+    <header>
+        <nav class="container navbar-menu">
+            <div class="box-logo">
+            <img class="logo-img" src="img/logo.png"  href="index.html" alt="logo">
+                
+                <div class="box-search" style="display: none;">
+                    <input class="input-search" type="text" placeholder="O que deseja encontrar?">
+                    <img class="lupa-search" src="img/search.svg" alt="lupa pesquisar">
+                </div>
+            </div>
+            <a style="display: none;" class="login-btn" href="#">Login</a>
+        </nav>
+    </header>
+
+    <!-- login -->
+    <main class="login-bg">
+        <div class="login-box container">
+            <h1>Iniciar sessão</h1>
+            <form action="" name="formulario" onsubmit="return validarLogin()">
+                <input type="email" placeholder="Digite seu e-mail" id="email" name="email">
+                <div id="erro-email"></div>
+                <input type="password" placeholder="Digite sua senha" id="senha">
+                <div id="erro-senha"></div>
+                <button class="btn-login" id="submit" type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+ <!-- footer -->
+ <footer class="footer-bg" id="footer">
+    <div class="container footer-box">
+       
+        <div class="form">
+            <form action="" name="formularioContato" onsubmit="return validarContato()">
+                <label for="Nome">Fale conosco</label>
+                <input id="nome" name="nome" type="text" placeholder="Nome completo">
+                <div id="erro-nome"></div>
+                <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" id="" cols="30" rows="10" ></textarea>
+                <div id="erro-mensagem"></div>
+                <button class="btn-enviar" type="submit">Enviar mensagem</button>
+            </form>
+          
+    </div>
+    <div> 
+    <img class="logo-img-footer" src="img/logo.png" alt="logo">
+     </div>
+    </div>
+    <div class="lista">
+    <ul class="ul-list">
+        <li><a href="#footer">Quem somos</a></li>
+        <li><a href="#footer">Politica de privacidade</a></li>
+        <li><a href="#footer">Programa fidelidade</a></li>
+    </ul>
+     </div>
+    <div class="footer-dev">
+        <p>Desenvolvido por <a href="https://github.com/paulohubb"> Paulo S. Sant' Anna</a> para o Challenge Alura Geek</p>
+    </div>
+
+</footer>
+
+<script src="js/forms.js"></script> 
+</body>
+</html>

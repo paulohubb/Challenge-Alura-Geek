@@ -1,0 +1,148 @@
+{
+  "produto": [
+    {
+      "name": "Darth Vader",
+      "imgUrl": "img/prod-01.png",
+      "price": "R$ 60,00",
+      "id": 1,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Elite Po",
+      "imgUrl": "img/prod-02.png",
+      "price": "R$ 60,00",
+      "id": 2,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Yoda",
+      "imgUrl": "img/prod-03.png",
+      "price": "R$ 60,00",
+      "id": 3,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Two Blacks",
+      "imgUrl": "img/prod-04.png",
+      "price": "R$ 60,00",
+      "id": 4,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Yoda Orange",
+      "imgUrl": "img/prod-05.png",
+      "price": "R$ 60,00",
+      "id": 5,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "R2D2",
+      "imgUrl": "img/prod-06.png",
+      "price": "R$ 60,00",
+      "id": 6,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Boneco Sonic",
+      "imgUrl": "img/prod-07.png",
+      "price": "R$ 60,00",
+      "id": 7,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Camisa Geek",
+      "imgUrl": "img/prod-08.png",
+      "price": "R$ 60,00",
+      "id": 8,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Óculos Gamer",
+      "imgUrl": "img/prod-09.png",
+      "price": "R$ 60,00",
+      "id": 9,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Console Psn",
+      "imgUrl": "img/prod-10.png",
+      "price": "R$ 60,00",
+      "id": 10,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Controle X-box",
+      "imgUrl": "img/prod-11.png",
+      "price": "R$ 60,00",
+      "id": 11,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Console Box",
+      "imgUrl": "img/prod-12.png",
+      "price": "R$ 60,00",
+      "id": 12,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "GameBoy",
+      "imgUrl": "img/prod-13.png",
+      "price": "R$ 60,00",
+      "id": 13,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Camisa Chinesa",
+      "imgUrl": "img/prod-14.png",
+      "price": "R$ 60,00",
+      "id": 14,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Despertador 4:20",
+      "imgUrl": "img/prod-15.png",
+      "price": "R$ 60,00",
+      "id": 15,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Pikachu COnsole 1999",
+      "imgUrl": "img/prod-16.png",
+      "price": "R$ 60,00",
+      "id": 16,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Controle WII",
+      "imgUrl": "img/prod-17.png",
+      "price": "R$ 60,00",
+      "id": 17,
+      "alt": "produto",
+      "description": " "
+    },
+    {
+      "name": "Console Nintendo",
+      "imgUrl": "img/prod-18.png",
+      "price": "R$ 60,00",
+      "id": 18,
+      "alt": "produto",
+      "description": " "
+    }
+  ]
+}

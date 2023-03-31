@@ -1,0 +1,23 @@
+.todos-produtos-bg {
+    height: auto;
+    background: var(--background-grey);
+}
+
+.btn-add-produto-link {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    text-decoration: none;
+    font-weight: 400;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px;
+    width: 165px;
+    height: 50px;
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    .btn-add-produto-link {
+        font-size: 14px;
+    }
+}

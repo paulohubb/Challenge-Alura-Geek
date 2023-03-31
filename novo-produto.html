@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Geek - New</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- menu -->
+    <header>
+        <nav class="container navbar-menu">
+            <div class="box-logo">
+                <img class="logo-img" src="img/logo.png"  href="index.html" alt="logo">
+                
+                <div class="box-search" style="display: none;">
+                    <input class="input-search" type="text" placeholder="O que deseja encontrar?">
+                    <img class="lupa-search" src="img/search.svg" alt="lupa pesquisar">
+                </div>
+            </div>
+            <a class="btn-adm" href="#">Menu administrador</a>
+        </nav>
+    </header>
+
+    <!-- adicionar novo produto -->
+    <main class="novo-produto-bg">
+        <div class="novo-produto-box container">
+            <h1>Adicionar novo produto</h1>
+            <form method="post" action="" data-form>
+                <!--<input id="inputUpload" type="file" placeholder="Carregar imagem" multiple accept="*" required data-url>-->
+                <input id="imgInput" type="text" placeholder="URL da imagem" required data-url>
+                <input id="nomeProduto" type="text" placeholder="Nome do produto" required data-nome>
+                <input id="preco" type="text" placeholder="Preço do produto" required data-preco>
+                <input type="text" placeholder="ID do produto" required data-id>
+                <button type="submit" class="btn-add-produto">Adicionar produto</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer-bg" id="footer">
+        <div class="container footer-box">
+           
+            <div class="form">
+                <form action="" name="formularioContato" onsubmit="return validarContato()">
+                    <label for="Nome">Fale conosco</label>
+                    <input id="nome" name="nome" type="text" placeholder="Nome completo">
+                    <div id="erro-nome"></div>
+                    <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" id="" cols="30" rows="10" ></textarea>
+                    <div id="erro-mensagem"></div>
+                    <button class="btn-enviar" type="submit">Enviar mensagem</button>
+                </form>
+              
+        </div>
+        <div> 
+        <img class="logo-img-footer" src="img/logo.png" alt="logo">
+         </div>
+        </div>
+        <div class="lista">
+        <ul class="ul-list">
+            <li><a href="#footer">Quem somos</a></li>
+            <li><a href="#footer">Politica de privacidade</a></li>
+            <li><a href="#footer">Programa fidelidade</a></li>
+        </ul>
+         </div>
+        <div class="footer-dev">
+            <p>Desenvolvido por <a href="https://github.com/paulohubb"> Paulo S. Sant' Anna</a> para o Challenge Alura Geek</p>
+        </div>
+    
+    </footer>
+
+<script type="module" src="controllers/criar.js"></script>
+<script src="js/forms.js"></script> 
+</body>
+</html>

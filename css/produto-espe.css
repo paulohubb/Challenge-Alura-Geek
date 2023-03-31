@@ -1,0 +1,48 @@
+.produto-especifico-bg {
+    height: auto;
+    width: 100%;
+    background: var(--background-grey);
+}
+
+.produto-espe-box {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important; 
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.produto-espe-img {
+    object-fit: cover;
+    width: 550px;
+    max-height: 400px;
+}
+
+.produto-espe-text {
+    max-width: 550px;
+    color: var(--color-grey);
+}
+
+.produto-espe-text h2 {
+    font-size: 52px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.produto-espe-text span {
+    font-weight: 700;
+}
+
+.produto-espe-text p {
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.produto-espe-tittle {
+    margin: 0 auto;
+    max-width: 1100px;
+    padding-left: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-grey);
+}

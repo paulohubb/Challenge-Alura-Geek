@@ -1,0 +1,134 @@
+header {
+    background: var(--background-white);
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    align-items: center;
+}
+
+.box-logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--color-blue);
+    font-size: 2rem;
+}
+
+.logo-img {
+    width: 90px;
+}
+
+.box-search {
+    display: flex;
+    align-items: center;
+    cursor: text;
+}
+
+.input-search {
+    padding: 10px !important;
+    padding-left: 25px !important;
+    width: 390px;
+    padding: 8px 16px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-search:focus-visible {
+    outline: none;
+    border: 1px solid var(--color-blue);
+}
+
+.lupa-search {
+    position: relative;
+    right: 35px;
+}
+
+input.input-search::placeholder {
+    position: relative;
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+
+.login-btn {
+    text-decoration: none;
+    align-items: center;
+    background-color: var(--background-white);
+    border: 1px solid var(--color-blue);
+    color: var(--color-blue);
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 16px;
+    width: 182px;
+    text-align: center;
+}
+
+.login-btn:hover {
+    transition: 0.4s;
+    background: var(--background-cyan);
+}
+
+@media (max-width: 850px) {
+    .input-search {
+        width: 230px;
+    }
+}
+
+@media (max-width: 725px) {
+    .login-btn {
+        width: 80px;
+    }   
+}
+
+@media (max-width: 625px) {
+    .logo-img {
+        width: 70px;
+    }
+    .logo {
+        font-size: 5rem;
+    }
+    .input-search {
+        display: none;
+    }
+    .lupa-search {
+        width: 25px;
+        right: 0;
+        left: 35px;
+        position: relative;
+        display: block;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-img {
+        width: 70px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    
+    .box-search {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        cursor: text;
+    }
+    
+    .lupa-search {
+        width: 25px;
+        right: 0;
+        left: 35px;
+        position: relative;
+       
+    }
+}
