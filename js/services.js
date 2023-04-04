@@ -1,6 +1,6 @@
 // produtos
 const listaProdutos = () =>
-fetch("http://localhost:3000/produto", {
+fetch("https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html", {
     headers: {
     "Access-Control-Allow-Origin": "*",
     },
@@ -11,14 +11,14 @@ fetch("http://localhost:3000/produto", {
 
     
 const pegarProduto = (id) => {
-    return fetch(`http://localhost:3000/produto/${id}`).then((res) => {
+    return fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`).then((res) => {
       return res.json();
     });
 };
 
 // criar um novo produto
 const criarProduto = (name, imgUrl, price, id) => {
-  return fetch("http://localhost:3000/produto", {
+  return fetch("https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html", {
     method: "POST",
     headers: {
       "Access-Control-Allow-Origin": "*",
@@ -41,7 +41,7 @@ const criarProduto = (name, imgUrl, price, id) => {
 
 // editar produto existente
 const editarProduto = async (id, name, price, imgUrl) => {
-  return fetch(`http://localhost:3000/produto/${id}`, {
+  return fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`, {
     method: "PATCH",
     headers: {
       //"Access-Control-Allow-Origin": "*",
@@ -62,7 +62,7 @@ const editarProduto = async (id, name, price, imgUrl) => {
 
 // deletar um produto
 const deletarProduto = async (id) => {
-  return await fetch(`http://localhost:3000/produto/${id}`, {
+  return await fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
