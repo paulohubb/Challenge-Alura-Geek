@@ -40,7 +40,7 @@ produtos.addEventListener("click", async (evento) => {
 const render = async () => {
   try {
     const listaProdutos = await services.listaProdutos();
-    listaProdutos.forEach((produto) => {
+    listaProdutos.forEach((produtos) => {
       produtos.appendChild(
         puxarProduto(produto.name, produto.price, produto.imgUrl, produto.id)
       );
