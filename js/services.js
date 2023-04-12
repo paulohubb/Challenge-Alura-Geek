@@ -1,24 +1,23 @@
 // produtos
 const listaProdutos = () =>
-fetch("https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html", {
+fetch("produtos.html", {
     headers: {
     "Access-Control-Allow-Origin": "*",
-    },
-    mode: "cors",
+    mode: "cors"},
 })
   .then((res) => res.json())
   .catch((error) => console.log(error));
 
     
 const pegarProduto = (id) => {
-    return fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`).then((res) => {
+    return fetch(`produtos.html/${id}`).then((res) => {
       return res.json();
     });
 };
 
 // criar um novo produto
 const criarProduto = (name, imgUrl, price, id) => {
-  return fetch("https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html", {
+  return fetch("produtos.html", {
     method: "POST",
     headers: {
       "Access-Control-Allow-Origin": "*",
@@ -41,12 +40,12 @@ const criarProduto = (name, imgUrl, price, id) => {
 
 // editar produto existente
 const editarProduto = async (id, name, price, imgUrl) => {
-  return fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`, {
+  return fetch(`produtos.html/${id}`, {
     method: "PATCH",
     headers: {
-      //"Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Origin": "*",
       "Content-Type": "application/json",
-      //datatype: 'application/json',
+      datatype: 'application/json',
     },
     body: JSON.stringify({
       name,
@@ -62,7 +61,7 @@ const editarProduto = async (id, name, price, imgUrl) => {
 
 // deletar um produto
 const deletarProduto = async (id) => {
-  return await fetch(`https://paulohubb.github.io/Challenge-Alura-Geek/produtos.html/${id}`, {
+  return await fetch(`produtos.html/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
