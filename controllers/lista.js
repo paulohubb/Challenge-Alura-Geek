@@ -1,4 +1,5 @@
 import { services } from "../js/services.js";
+import { produtos} from "../controllers/produtos.js"
 
 const puxarProduto = (name, price, imgUrl, id) => {
   const card = document.createElement("div");

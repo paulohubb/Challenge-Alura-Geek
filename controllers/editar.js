@@ -17,8 +17,7 @@ services.pegarProduto(id).then((dados) =>
 const formulario = document.querySelector("[data-form]");
 formulario.addEventListener("submit", (evento) => {
   evento.preventDefault();
-  services
-    .editarProduto(
+  services.editarProduto(
       id,
       nome.value,
       preco.value,
