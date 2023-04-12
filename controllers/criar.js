@@ -16,7 +16,7 @@ form.addEventListener("submit", (evento) => {
       window.location.pathname = "/produtos.html";
       console.log(resposta);
     })
-    .catch((err) => {
-      console.log(err);
+    .catch((error) => {
+      console.log(error);
     });
 });

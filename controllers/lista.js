@@ -33,7 +33,7 @@ produtos.addEventListener("click", async (evento) => {
         produto.remove();
         console.log(res);
       })
-      .catch((err) => console.log(err));
+      .catch((error) => console.log(error));
   }
 });
 
@@ -45,8 +45,8 @@ const render = async () => {
         puxarProduto(produto.name, produto.price, produto.imgUrl, produto.id)
       );
     });
-  } catch (err) {
-    console.log(err);
+  } catch (error) {
+    console.log(error);
   }
 };
 
